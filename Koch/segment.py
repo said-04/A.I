@@ -35,7 +35,7 @@ class Segment:
         part[0] = Segment(self.a, b1)
         a1 = vector2.subtract(self.b, v)
         part[1] = Segment(a1, self.b)
-        # -60 degree or -pi/3 since it's equilateral triangle
+        # -60 grados o -pi/3 para hacer el triangulo equilatero.
         v = v.rotate(-math.pi/3)
         c = vector2.add(b1, v)
         part[2] = Segment(b1, c)
