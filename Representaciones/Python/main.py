@@ -22,7 +22,7 @@ fps = 60 # En promedio son los fotogramas que se pueden apreciar.
 
 # Configuraciones externas sobre las iteraciones y recursividad.
 hue = 0.1
-max = 3 # Estaba en 7
+max = 6 # Estaba en 7
 speed = 0.1
 counter = 0
 iterations = 0  # El iterador comienza en 0.
